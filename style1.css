@@ -1,0 +1,97 @@
+body{
+    background-color:aliceblue  ;
+}
+form {
+    margin: auto;
+    width: min(800px, 90%);
+    padding: 20px;
+    border: 1px solid #8a8585;
+    border-radius: 10px;
+    background-image: url('https://www.careerinitiative.in/assets/images/college/Garden%20City%20University.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 32px; /* Adjust font size as needed */
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:rgb(65, 65, 81);
+}
+div{
+    display: flex;
+    background-color: rgb(121, 126, 131);
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"]
+textarea,
+select,
+#dob {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2c1362;
+    border-radius: 6px;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+    
+}
+
+.checkboxes label {
+    margin-right: 20px;
+}
+legend
+{
+    text-align: center;
+}
+
+button {
+    display: block;
+    background-color: rgb(128, 0, 55);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.buttons button:hover {
+    background-color: #5e381f;
+}
